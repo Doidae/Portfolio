@@ -1,0 +1,24 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+    padding: 5px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    margin-left: 10px;
+    transition: background-color 0.3s;
+    box-sizing: border-box;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
